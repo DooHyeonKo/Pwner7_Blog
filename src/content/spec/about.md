@@ -1,11 +1,8 @@
 # About
 
-I'm interested in Vulnerability Research and AI Engineering.
+Hello! I'm Pwner7 and currently attending school at nonsan high school.
 
-Name: Doo Hyeon Ko
-
-Nick Name: Pwner7
-
-School: Nonsan High School
-
-Email: pwnable7@gmail.com 
+# Interested In
+-Hacking (Pwn/Rev/Web)
+-Cooking
+-ISEGYE IDOL
