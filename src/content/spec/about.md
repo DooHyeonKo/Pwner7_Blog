@@ -1,5 +1,7 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+My name is Doo Hyeon Ko. and Im interested in Vulnerability Research and AI Engineering. 
+
+
 
 ::github{repo="saicaca/fuwari"}
 
