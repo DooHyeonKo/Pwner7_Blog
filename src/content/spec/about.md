@@ -17,6 +17,7 @@ Hello! I'm Pwner7 and currently attending school at nonsan high school.
 - 2022 Konyang University Hacking Defense Contest 8th place (individual competition)
 - 2022 8th Ministry of Education Information Security Gifted Education Center Information Security Contest 34th place (individual exhibition)
 - 2022 Konyang University Hacking Defense Competition 2nd 6th place (team competition)
+- Pikachu Volleyball Memory Hack Announced
 
 ## 2023
 - Nonsan High School
