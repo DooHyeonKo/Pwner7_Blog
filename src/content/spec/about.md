@@ -13,5 +13,15 @@ Hello! I'm Pwner7 and currently attending school at nonsan high school.
 
 ## 2022
 - Gwangseok Middle School
-- 2022 Konyang University Information Security
+- 2022 Konyang University Information Security Gifted Education Center Middle School Advanced
 - 2022 Konyang University Hacking Defense Contest 8th place (individual competition)
+- 2022 8th Ministry of Education Information Security Gifted Education Center Information Security Contest 34th place (individual exhibition)
+- 2022 Konyang University Hacking Defense Competition 2nd 6th place (team competition)
+
+## 2023
+- Nonsan High School
+- Konyang University Information Security Gifted Education Center Advanced Basic Advanced
+- 2023 Soonchunhyang University Youth Information Protection Festival 14th place (solo exhibition)
+- 2023 Konyang University format string bug vulnerability announcement
+- 2023 Konyang University 9th Information Security Competition
+- HITCON CTF 2023 (solo exhibition)
