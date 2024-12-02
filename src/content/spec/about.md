@@ -29,7 +29,7 @@ Hello! I'm Pwner7 and currently attending school at nonsan high school.
 
 # Participating CTFs
 
-# 2024
+## 2024
 - Mapna CTF 2024
 - Real World CTF 6th
 - DiceCTF 2024 Quals
