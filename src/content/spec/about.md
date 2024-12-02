@@ -26,3 +26,17 @@ Hello! I'm Pwner7 and currently attending school at nonsan high school.
 - 2023 Konyang University format string bug vulnerability announcement
 - 2023 Konyang University 9th Information Security Competition
 - HITCON CTF 2023 (solo exhibition)
+
+# Participating CTFs
+
+# 2024
+- Mapna CTF 2024
+- Real World CTF 6th
+- DiceCTF 2024 Quals
+- LINE CTF 2024
+- BYUCTF 2024
+- idekCTF 2024
+- SekaiCTF 2024
+- CSAW CTF Qualification Round 2024
+- m0leCon CTF 2025 Teaser
+- HKCERT CTF 2024 (Qualifying Round)
