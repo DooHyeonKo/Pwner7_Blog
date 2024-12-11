@@ -1,6 +1,6 @@
 ---
 title: Platypwn CTF 2024 Write-Up
-published: 2024-03-12
+published: 2024-12-11
 description: Platypwn CTF 2024 Write-Up
 tags: [CTF]
 category: Hacking
