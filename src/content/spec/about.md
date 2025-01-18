@@ -10,7 +10,7 @@ Hello! I'm Pwner7 and currently attending school at nonsan high school.
 - Cooking
 - ISEGYE IDOL
 
-# Education
+# Education and CTFs
 
 ## 2022
 - Gwangseok Middle School
@@ -28,9 +28,7 @@ Hello! I'm Pwner7 and currently attending school at nonsan high school.
 - 2023 Konyang University 9th Information Security Competition
 - HITCON CTF 2023 (solo exhibition)
 
-# Participating CTFs
-
-## 2024
+# 2024
 - Mapna CTF 2024
 - Real World CTF 6th
 - DiceCTF 2024 Quals
@@ -40,4 +38,10 @@ Hello! I'm Pwner7 and currently attending school at nonsan high school.
 - SekaiCTF 2024
 - CSAW CTF Qualification Round 2024
 - m0leCon CTF 2025 Teaser
-- HKCERT CTF 2024 (Qualifying Round)
+- HKCERT CTF 2024 (Qualifying Round) 
+- niteCTF 2024 (Team: HyperSpectrum)
+- 0CTF 2024 (Team: HyperSpectrum)
+- 0xl4ugh CTF (Team: HyperSpectrum)
+
+# 2025
+- iris CTF 2025 (Team: HyperSpectrum)
