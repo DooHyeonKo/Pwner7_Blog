@@ -147,7 +147,7 @@ Fastbin은 10개로 이루어져 있고, 각각이 Single Linked List 형태로 
 
 ## Code Analysis ##
 
-8바이트 크기의 함수형 포인터 벼열 ptrs를 선언했습니다. 그리고 0부터 8까지의 element에 각각 8바이트 크기의 동적 메모리를 할당했습니다.
+8바이트 크기의 함수형 포인터 배열 ptrs를 선언했습니다. 그리고 0부터 8까지의 element에 각각 8바이트 크기의 동적 메모리를 할당했습니다.
 
 ```
 void *ptrs[8];
@@ -206,3 +206,5 @@ Now the free list has [ 0x559f0e3403a0, 0x559f0e3403c0, 0x559f0e3403a0 ]. If we 
 ```
 
 출력 결과를 보면 1번째 주소와 3번쨰 주소가 같다는 것을 알 수 있습니다. 
+
+이러한 방법을 이용한 공격 방법을 Double-Free Attack 이라고 하고, free를 두번 하기 때문에 Double-Free라고 이름을 정했습니다.ㄻㄴ
