@@ -1,7 +1,7 @@
 ---
 title: Heap Exploitation LAB
 published: 2024-12-11
-description: Platypwn CTF 2024 Write-Up
+description: Heap Exploitation LAB
 tags: [CTF]
 category: Hacking
 draft: false
