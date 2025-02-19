@@ -1,7 +1,7 @@
 ---
 title: Introduction Heap Exploitation
 published: 2024-12-11
-description: Platypwn CTF 2024 Write-Up
+description: Introduction Heap Exploitation
 tags: [CTF]
 category: Hacking
 draft: false
