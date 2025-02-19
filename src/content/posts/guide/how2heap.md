@@ -141,4 +141,68 @@ int main()
 	assert(a == c);
 }
 ```
-(작성중)
+## Fastbin ##
+
+Fastbin은 10개로 이루어져 있고, 각각이 Single Linked List 형태로 연결되어 있습니다. 그리고 청크의 크기는 16, 24, 32, 40, 48, 56, 64, 72, 80,..,88로 이루어져 있고, Metadata의 크기도 포함이 됩니니다.
+
+## Code Analysis ##
+
+8바이트 크기의 함수형 포인터 벼열 ptrs를 선언했습니다. 그리고 0부터 8까지의 element에 각각 8바이트 크기의 동적 메모리를 할당했습니다.
+
+```
+void *ptrs[8];
+
+for (int i=0; i<8; i++) {
+	ptrs[i] = malloc(8);
+}
+```
+
+그리고 0부터 7까지의 element를 free 함수를 이용해 해제시켰습니다. 
+
+```
+for (int i=0; i<7; i++) {
+	free(ptrs[i]);
+}
+```
+
+8바이트 크기의 동적 메모리를 변수 a,b,c에 각각 할당시켰습니다
+
+```
+int *a = calloc(1, 8);
+int *b = calloc(1, 8);
+int *c = calloc(1, 8);
+```
+이를 출력하면 다음과 같습니다.
+
+```
+1st calloc(1, 8): 0x559f0e3403a0
+2nd calloc(1, 8): 0x559f0e3403c0
+3rd calloc(1, 8): 0x559f0e3403e0
+```
+
+할당된 변수 중 a를 free 함수를 이용해 해제했습니다. 이를 출력하면 다음과 같습니다.
+
+```
+If we free 0x559f0e3403a0 again, things will crash because 0x559f0e3403a0 is at the top of the free list.
+```
+
+두 번쨰로 변수를 b를 해제 시키고 a 변수의 주소를 출력 시키면 다음과 같습니다.
+
+```
+Now, we can free 0x559f0e3403a0 again, since it's not the head of the free list.
+```
+
+다시 a변수를 해제 시키고, 출력하면 다음과 같습니다.
+
+```
+Now the free list has [ 0x559f0e3403a0, 0x559f0e3403c0, 0x559f0e3403a0 ]. If we malloc 3 times, we'll get 0x559f0e3403a0 twice!
+```
+
+마지막으로 동적 메모리를 변수 a,b,c에 각각 8바이트로 할당 시키고 출력하면 다음과 같습니니다.
+```
+1st calloc(1, 8): 0x559f0e3403a0
+2nd calloc(1, 8): 0x559f0e3403c0
+3rd calloc(1, 8): 0x559f0e3403a0
+```
+
+출력 결과를 보면 1번째 주소와 3번쨰 주소가 같다는 것을 알 수 있습니다. 
