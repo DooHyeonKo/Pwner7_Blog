@@ -1,7 +1,7 @@
 ---
 title: calc
 published: 2024-12-11
-description: Platypwn CTF 2024 Write-Up
+description: calc
 tags: [Pwnable.tw]
 category: WarGame
 draft: false
