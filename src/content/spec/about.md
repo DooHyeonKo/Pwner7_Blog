@@ -3,7 +3,6 @@
 - Nick Name: Pwner7
 - Team: HyperSpectrum, Team Jamong
 - School: Nonsan High School
-
 # Interested In
 - Hacking (Pwn/Rev/Web)
 - Computer Vision
@@ -11,7 +10,6 @@
 - Machine Learning
 - Cooking
 - ISEGYE IDOL
-
 # Education and CTFs
 ## 2022
 - Gwangseok Middle School
