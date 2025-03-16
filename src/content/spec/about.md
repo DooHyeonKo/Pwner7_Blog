@@ -1,9 +1,9 @@
 # About
 
-Name: DooHyeon Ko
-Nick Name: Pwner7
-Team: HyperSpectrum, Team Jamong
-School: Nonsan High School
+- Name: DooHyeon Ko
+- Nick Name: Pwner7
+- Team: HyperSpectrum, Team Jamong
+- School: Nonsan High School
 
 # Interested In
 - Hacking (Pwn/Rev/Web)
