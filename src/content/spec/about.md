@@ -1,6 +1,9 @@
 # About
 
-Hello! I'm Pwner7 and currently attending school at nonsan high school.
+Name: DooHyeon Ko
+Nick Name: Pwner7
+Team: HyperSpectrum, Team Jamong
+School: Nonsan High School
 
 # Interested In
 - Hacking (Pwn/Rev/Web)
