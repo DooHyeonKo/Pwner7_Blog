@@ -41,3 +41,4 @@
 - 0xl4ugh CTF (Team: HyperSpectrum)
 # 2025
 - iris CTF 2025 (Team: HyperSpectrum)
+- Chungnam AI Coding Creativity Festival Excellence Award
