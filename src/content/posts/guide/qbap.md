@@ -1,6 +1,6 @@
 ---
 title: QBAP (QEMU  Binary Analysis Platform)
-published: 2024-12-11
+published: 2025-09-17
 description: Binary Analysis Platform
 tags: [Side Project]
 category: Security
