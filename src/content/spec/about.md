@@ -8,8 +8,6 @@
 - Computer Vision
 - Problem Solving (ex, Baekjoon)
 - Machine Learning
-- Cooking
-- ISEGYE IDOL
 # Education and CTFs
 ## 2022
 - Gwangseok Middle School
